@@ -113,10 +113,10 @@ def plot_tracks(tracks, title=''):
 def main():
     races = 10
     rolls = 100
-    dice_1 = 2
+    dice_1 = 1
     sides_1 = 6
-    dice_2 = 3
-    sides_2 = 4
+    dice_2 = 1
+    sides_2 = 8
     print_results = False
 
     title = "Plot of {} races of {}d{} against {}d{} rolled {} times".format(races,
