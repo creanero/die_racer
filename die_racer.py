@@ -10,6 +10,7 @@ def roll_die(sides=6, print_results=False):
     # prints to std.out if print_results is true
     roll = random.randint(1, sides)
 
+    # if the print_results flag is set, writes the roll and result to std.out
     if print_results:
         print("roll d{}: {}".format(sides, roll))
 
