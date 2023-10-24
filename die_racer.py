@@ -18,7 +18,7 @@ def roll_die(sides=6, print_results=False):
 
 
 def roll_many(dice=1, sides=6, print_results=False):
-    # rolls many dice by calling roll_die
+    # rolls dice number of dice with specified sides using roll_die
     # returns a list of results
     rolls = []
 
