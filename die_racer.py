@@ -5,6 +5,9 @@ import time
 
 
 def roll_die(sides=6, print_results=False):
+    # randomly generates an integer between 1 and sides
+    # returns that integer
+    # prints to std.out if print_results is true
     roll = random.randint(1, sides)
 
     if print_results:
